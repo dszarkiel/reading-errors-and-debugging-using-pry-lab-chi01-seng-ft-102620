@@ -2,7 +2,9 @@
 require 'pry'
 
 def generate_star_date
-  (rand(100000) + 400000) / 10
+  (rand(100000) + 400000) / 10.0
+  binding.pry
+  binding.pry
 end
 
 def state_log(star_date)
