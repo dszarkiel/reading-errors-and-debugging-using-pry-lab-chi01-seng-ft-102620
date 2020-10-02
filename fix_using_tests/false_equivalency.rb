@@ -3,6 +3,7 @@
 def get_user_input
   gets.chomp
   binding.pry
+  puts "hello"
 end
 
 def prompt_user
