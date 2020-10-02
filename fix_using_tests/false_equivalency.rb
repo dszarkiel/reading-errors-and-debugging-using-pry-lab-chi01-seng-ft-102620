@@ -8,10 +8,8 @@ def prompt_user
 end
 
 def get_user_input
-  input = gets.chomp
+  gets.chomp
 end
-
-input = num
 
 def selection(num)
   if num = 1
@@ -19,6 +17,8 @@ def selection(num)
   elsif num = 2
      "HAM HAM HAM IN MY TUMMY"
   end
+  binding.pry
+  puts 'hello'
 end
 
 def runner
